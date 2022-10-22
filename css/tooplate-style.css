@@ -563,13 +563,17 @@ ul.cd-hero-slider {
 	transition: all 0.5s;
 }
 
-/* TRAINING */
+/* CEO */
 
 #ceo {
 	/*background-image: url(../img/ceo.jpg);*/
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: cover;
+}
+
+.ceo-right {
+	background-color: gray;
 }
 
 
