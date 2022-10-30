@@ -572,8 +572,21 @@ ul.cd-hero-slider {
 	background-size: cover;
 }
 
+.img-fundadora{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .ceo-right {
-	background-color: gray;
+	background-color: #bfbfbf;
+	margin-top: -80px;
+	margin-bottom: -80px;
+}
+
+.img-logos {
+	margin-top: 60px;
+	margin-bottom: 80px;
+	max-height: 480px;
 }
 
 
@@ -1052,6 +1065,12 @@ caption {
 	}
 }
 
+@media (max-width: 990px) {
+  	.ceo-right {
+	  margin-top: 0px;
+	}
+}
+
 .columna {
   width:33%;
   float:left;
@@ -1064,5 +1083,7 @@ caption {
     width:auto;
     float:none;
   }
-  
+  .ceo-right {
+	margin-top: 0px;
+  }
 }
