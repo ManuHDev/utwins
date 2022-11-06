@@ -672,6 +672,10 @@ ul.cd-hero-slider {
 	width: 100%;
 	padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   }
+
+.min-vertical {
+	min-height: 320px;
+  }
   
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
@@ -693,6 +697,10 @@ ul.cd-hero-slider {
 #contact p {
 	color: #5a5a5a;
 	font-size: 1.5rem;
+}
+
+#contact p a{
+	color: #5a5a5a;
 }
 
 #contact .section-heading .line-dec {
