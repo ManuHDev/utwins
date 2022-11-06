@@ -129,7 +129,7 @@ p {
 	margin-top: 22px;
 	background-image: url(../img/white_220x40.png);
 	display: inline-block;
-	width: 220px;
+	width: 160px;
 	height: 40px;
 	background-repeat: no-repeat;
 }
@@ -137,7 +137,7 @@ p {
 	margin-top: 22px;
 	background-image: url(../img/black_220x40.png);
 	display: inline-block;
-	width: 220px;
+	width: 160px;
 	height: 40px;
 	background-repeat: no-repeat;
 }
@@ -570,6 +570,7 @@ ul.cd-hero-slider {
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: cover;
+	background-color: #fff;
 }
 
 .img-fundadora{
@@ -632,6 +633,61 @@ ul.cd-hero-slider {
 	max-height: 120px;
 }
 
+/* NEWS */
+#news {
+	background-color: #48def8;
+	padding-bottom: 0px;
+}
+.news-cover{
+	border: 0px solid #7a7a7a;
+	border-radius: 5px;
+	background-color: #FFF; /*d8d5d5c7;*/
+	margin: 10px 0px;
+}
+
+.margin-side{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.img-aspika{
+	margin-left: 15px;
+}
+.img-floating{
+	position:absolute;
+	height:150px;
+	width:200px;
+	top: -25px;
+  	right: -25px;
+	z-index: 1;
+}
+.img-fija{
+  /*position:absolute;*/
+  z-index: -1;
+}
+
+.container-iframe {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+
+.min-vertical {
+	min-height: 320px;
+  }
+  
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+  }
+
 /* CONTACT US */
 
 #contact .section-heading h4 {
@@ -641,6 +697,10 @@ ul.cd-hero-slider {
 #contact p {
 	color: #5a5a5a;
 	font-size: 1.5rem;
+}
+
+#contact p a{
+	color: #5a5a5a;
 }
 
 #contact .section-heading .line-dec {
@@ -1086,4 +1146,10 @@ caption {
   .ceo-right {
 	margin-top: 0px;
   }
+}
+
+@media(min-width: 1200px){
+	.col-25{
+		width: 20.83333333%;
+	}
 }
